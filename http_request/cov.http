@@ -1,0 +1,35 @@
+
+POST {{base_url}}/token
+Authorization: Basic {{authorization}}
+
+###
+# cases
+GET  {{base_url}}/cases
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+# casesSuspected
+GET  {{base_url}}/casesSuspected
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+
+GET  {{base_url}}/casesConfirmed
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+
+GET  {{base_url}}/deaths
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+###
+
+GET  {{base_url}}/recovered
+Accept: application/json
+Authorization: Bearer {{accessToken}}
+
+###
